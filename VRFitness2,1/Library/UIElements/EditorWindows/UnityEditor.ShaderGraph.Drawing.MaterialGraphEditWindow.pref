@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12386, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Keys:
+  - __PanelContainer__rootVisualContainer__34b9adcd05354154ab05e99c1f4bd5c7__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__34b9adcd05354154ab05e99c1f4bd5c7__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__cbc3df714983c4849ab36ae6f803a150__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__cbc3df714983c4849ab36ae6f803a150__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  m_Values:
+  - '{}'
+  - '{}'
+  - '{"position":{"x":1455.0,"y":586.0,"z":0.0},"scale":{"x":0.4625256657600403,"y":0.4625256657600403,"z":1.0}}'
+  - '{"m_Version":42,"m_SelectedElementsArray":["03c5fa3b-c6fb-45e1-910b-74586eafd544","618dd57b-d1a3-4118-b3a9-cf31dd35e655","7ffa97c0-cb78-4143-a3c2-9405f758f126","c01e5373-ce23-49ae-afbd-2c65b596ce8d","ea99d411-4b95-4779-bc69-136e00132592","9614a22a-4fdb-481e-82b1-5f5a2044de4d","17cc9f03-2b0f-4c6f-802f-9e2483ebac87","cba88d5a-7ef0-4921-b52c-dba0640e33b3","1525b15b-3367-429e-a86d-f86d4e4d1156","ec1bd1c0-5a9f-453a-8c45-fd6880859784","381b4978-3cec-4fc9-8421-6aa8afe2f32b","a809cbfc-f959-43d0-9a40-f0c325843186","ace97dc3-6b8f-4e4a-8be8-f91bfe58ef9c","efe8bb60-b9ef-465f-b877-0d2c5efff90d"]}'

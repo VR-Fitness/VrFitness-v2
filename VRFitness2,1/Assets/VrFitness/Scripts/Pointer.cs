@@ -7,11 +7,13 @@ using Valve.VR.InteractionSystem;
 public class Pointer : MonoBehaviour
 {
     public SteamVR_Action_Boolean fireAction;
+    public SteamVR_Action_Boolean ShieldAction;
     public float Distance = 2.0f;
     public GameObject mDot;
     public GameObject turret;
     public GameObject bulletSpawnPoint;
     public GameObject bullet;
+    public GameObject Shield;
 
 
 
@@ -42,6 +44,17 @@ public class Pointer : MonoBehaviour
             Debug.Log("fire");
             Fire();
         }
+
+        if (ShieldAction.GetStateDown(pose.inputSource))
+        {
+            Shield.SetActive(true);
+        }
+        else if(ShieldAction.GetStateUp(pose.inputSource))
+        {
+            Shield.SetActive(false);
+        }
+
+
     }
 
 

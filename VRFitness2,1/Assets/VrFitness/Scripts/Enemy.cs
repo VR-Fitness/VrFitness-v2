@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (timer > 1)
+        if (timer > 2)
         {
             Fire();
             timer = 0;

@@ -4,27 +4,21 @@ using UnityEngine;
 
 public class OnCollideDestroy : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string[] tagName;
+ 
+
+   
+
+
+   
+    private void OnTriggerStay(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        Destroy(collision.gameObject);
-    }
-
-
-    private void OnCollisionStay(Collision collision)
-    {
-        Destroy(collision.gameObject);
+        for (int i = 0; i < tagName.Length; i++)
+        {
+            if (other.gameObject.tag.Equals(tagName[i]))
+            {
+                Destroy(other.gameObject);
+            }
+        }
     }
 }

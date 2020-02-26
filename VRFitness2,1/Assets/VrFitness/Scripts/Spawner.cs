@@ -25,10 +25,10 @@ public class Spawner : MonoBehaviour
 
             for (int i = 0; i < randomFor; i++)
             {
-                float randomX = Random.Range(-0.5f, 0.5f);
-                float randomY = Random.Range(-0.5f, 0.5f);
-                float randomZ = Random.Range(-2.5f, 2.5f);
-                float randomSpeed = Random.Range(-20, -10);
+                float randomX = Random.Range(-1.5f, 1.5f);
+                float randomY = Random.Range(-1.0f, 1.5f);
+                float randomZ = Random.Range(-1.5f, 1.5f);
+                float randomSpeed = Random.Range(-30, -10);
                 float randomType = Random.Range(10, 100);
                 Rigidbody clone;
 
@@ -36,6 +36,7 @@ public class Spawner : MonoBehaviour
                 {
                     clone = Instantiate(prefab[0], new Vector3(transform.position.x + randomX, transform.position.y + randomY, transform.position.z + randomZ), transform.rotation);
                     clone.velocity = transform.TransformDirection(Vector3.forward * randomSpeed);
+                    clone.angularVelocity = new Vector3(Random.Range(-1,1), Random.Range(-1, 1), Random.Range(-1, 1));
                 }
                 else
                 {
